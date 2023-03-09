@@ -1,0 +1,90 @@
+* {
+   
+    font-family: 'Poppins', sans-serif;
+}
+
+.formulario {
+    background-color: rgb(233, 233, 233);
+    width: 520px;
+    min-height: 150px;
+    padding: 6px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px #555;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo {
+    margin-left: 49px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho__input {
+    width: 297px;
+    margin-left: 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px #888;
+    font-size: 16px;
+
+
+}
+
+.cabecalho__btn {
+    border: none;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    padding: 7px 15px;
+    background-color: #7931f5;
+    color: white;
+}
+
+.cabecalho__btn:hover {
+    cursor: pointer;
+}
+
+.novali {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.novali__texto {
+    background-color: white;
+    width: 285px;
+    height: 27px;
+    margin-left: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px #888;
+    padding-left: 8px;
+    padding-top: 3px;
+    font-size: 16px;
+}
+
+.btns__icons {
+    margin: 6px 4px;
+    cursor: pointer;
+
+}
+
+.lixeira {
+    padding-right: 35px;
+}
+
+.riscado {
+    text-decoration: line-through 2px;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
